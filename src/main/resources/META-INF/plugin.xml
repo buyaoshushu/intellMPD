@@ -1,0 +1,52 @@
+<idea-plugin  url="http://www.jetbrains.com/idea">
+    <id>com.buyaoshushu.intellMPD</id>
+    <name>intellMPD</name>
+
+    <description><![CDATA[
+     this is the MPD client for IntelliJ Platform.
+     depends on javampd.
+     Now it's only can use localhost mpd-server and default port 6600 without password.
+     While add these setting  future.
+     Help:
+     1.click the Tool Menu.
+     2.hover intellMPD.
+     3.click Play,Pause,etc.
+    ]]></description>
+    <!-- Description of changes in the latest version of the plugin.
+         Displayed in the "Plugins" settings dialog and in the
+         plugin repository Web interface. -->
+    <version>0.1.0</version>
+    <vendor email="buyao@buyaoshushu.com" url="http://buyaoshushu">buyaoshushu</vendor>
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products -->
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+
+    </extensions>
+
+    <actions>
+        <action id="com.buyaoshushu.action.SimpleAction" class="com.buyaoshushu.action.ToolMenuAction"
+                         text="GroupMenu" description="IntelliJ Action System Demo">
+    </action>
+        <group id="com.buyaoshushu.action.GroupedActions" text="IntellMPD" popup="true">
+            <add-to-group group-id="ToolsMenu" anchor="after" relative-to-action="com.buyaoshushu.action.SimpleAction"/>
+            <action class="com.buyaoshushu.action.ToolMenuAction"
+                    id="com.buyaoshushu.action.PlayAction" text="Play" description="Play">
+            </action>
+            <action class="com.buyaoshushu.action.ToolMenuAction"
+                    id="com.buyaoshushu.action.PauseAction" text="Pause" description="Play">
+            </action>
+            <action class="com.buyaoshushu.action.ToolMenuAction"
+                    id="com.buyaoshushu.action.NextAction" text="Next" description="Play">
+            </action>
+            <action class="com.buyaoshushu.action.ToolMenuAction"
+                    id="com.buyaoshushu.action.PrevAction" text="Previous" description="Play">
+            </action>
+            <action class="com.buyaoshushu.action.ToolMenuAction"
+                    id="com.buyaoshushu.action.StopAction" text="Stop" description="Stop">
+            </action>
+        </group>
+    </actions>
+</idea-plugin>
