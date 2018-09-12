@@ -16,7 +16,7 @@
          Displayed in the "Plugins" settings dialog and in the
          plugin repository Web interface. -->
     <version>0.1.0</version>
-    <vendor email="buyao@buyaoshushu.com" url="http://buyaoshushu">buyaoshushu</vendor>
+    <vendor email="buyao@buyaoshushu.com" url="https://github.com/buyaoshushu/intellMPD">buyaoshushu</vendor>
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
     <!-- uncomment to enable plugin in all products -->
