@@ -33,19 +33,19 @@
         <group id="com.buyaoshushu.action.GroupedActions" text="IntellMPD" popup="true">
             <add-to-group group-id="ToolsMenu" anchor="after" relative-to-action="com.buyaoshushu.action.SimpleAction"/>
             <action class="com.buyaoshushu.action.ToolMenuAction"
-                    id="com.buyaoshushu.action.PlayAction" text="Play" description="Play">
+                    id="com.buyaoshushu.action.PlayAction" text="Play" description="Play current item">
             </action>
             <action class="com.buyaoshushu.action.ToolMenuAction"
-                    id="com.buyaoshushu.action.PauseAction" text="Pause" description="Play">
+                    id="com.buyaoshushu.action.PauseAction" text="Pause" description="Pause the play">
             </action>
             <action class="com.buyaoshushu.action.ToolMenuAction"
-                    id="com.buyaoshushu.action.NextAction" text="Next" description="Play">
+                    id="com.buyaoshushu.action.NextAction" text="Next" description="Play next item in current playlist">
             </action>
             <action class="com.buyaoshushu.action.ToolMenuAction"
-                    id="com.buyaoshushu.action.PrevAction" text="Previous" description="Play">
+                    id="com.buyaoshushu.action.PrevAction" text="Previous" description="Play previous item in current playlist">
             </action>
             <action class="com.buyaoshushu.action.ToolMenuAction"
-                    id="com.buyaoshushu.action.StopAction" text="Stop" description="Stop">
+                    id="com.buyaoshushu.action.StopAction" text="Stop" description="Stop the play">
             </action>
         </group>
     </actions>
