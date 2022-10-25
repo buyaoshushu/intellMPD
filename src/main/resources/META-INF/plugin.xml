@@ -15,7 +15,7 @@
     <!-- Description of changes in the latest version of the plugin.
          Displayed in the "Plugins" settings dialog and in the
          plugin repository Web interface. -->
-    <version>0.1.0</version>
+    <version>1.1-SNAPSHOT</version>
     <vendor email="buyao@buyaoshushu.com" url="https://github.com/buyaoshushu/intellMPD">buyaoshushu</vendor>
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
